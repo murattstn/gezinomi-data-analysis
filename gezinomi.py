@@ -22,7 +22,7 @@ Season: Otele giriş tarihindeki sezon bilgis
 # Soru1 : miuul_gezinomi.xlsx dosyasını okutunuz ve veri seti ile ilgili genel bilgileri gösteriniz..
 pd.set_option('display.max_columns', None)
 pd.set_option("display.float_format", "{:.2f}".format)
-df = pd.read_excel("miuul_gezinomi.xlsx")
+df = pd.read_excel("örnek_csv.xlsx")
 df.head()
 df.info()
 df.describe()
